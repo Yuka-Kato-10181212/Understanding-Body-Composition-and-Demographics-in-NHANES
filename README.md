@@ -9,6 +9,7 @@ The datasets to be downloaded:
 3. Body Measures
 
 This visualization requires phenotypes defined by Prado et al. (2014) and it should be recreated based on Dual-Energy X-ray Absorptiometry - Whole Body data. 
+
 "A population-based approach to define body-composition phenotypes"
 https://doi.org/10.3945/ajcn.113.078576
 
