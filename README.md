@@ -4,6 +4,7 @@ This project aims to visualize the demographic variables of NHANES data from 201
 
 Data is available at 
 https://www.cdc.gov/nchs/nhanes/index.htm
+
 The datasets to be downloaded:
 1. Demographic Variables & Sample Weights
 2. Dual-Energy X-ray Absorptiometry - Whole Body
