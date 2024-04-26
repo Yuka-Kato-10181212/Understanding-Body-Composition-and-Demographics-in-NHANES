@@ -1,3 +1,16 @@
+#Data Preparation for Body Composition and Demographics 
+
+
+
+
+#This file does not include the code to determine the phenotypes for individual participants.
+#It should be calculated by referencing on 
+#Prado et al. (2014) "A population-based approach to define body-composition phenotypes"
+#https://doi.org/10.3945/ajcn.113.078576
+
+
+
+############################################################################################
 #install.packages('apyramid')
 #install.packages('ggplot2')
 #install.packages('readr')
@@ -53,9 +66,6 @@ df <- bind_rows(all1112, all1314,all1516, all1718)
 setdiff(df$SEQN, phenotype$SEQN)
 setdiff(phenotype$SEQN, df$SEQN)
 
-#Merge phenotype 
-df <- merge(df, phenotype, by = 'SEQN')
-names(df)
 
 #Delete the duplicated column
 df <- subset(df, select = -(SDDSRVYR.y)) %>% rename('SDDSRVYR' = 'SDDSRVYR.x')
