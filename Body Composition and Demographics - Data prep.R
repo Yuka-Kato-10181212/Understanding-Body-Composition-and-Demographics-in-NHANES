@@ -46,7 +46,7 @@ bm1314 <- read_xpt(paste0(path, '\\BMX_H.XPT'))
 bm1516 <- read_xpt(paste0(path, '\\BMX_I.XPT'))
 bm1718 <- read_xpt(paste0(path, '\\BMX_J.XPT'))
 
-phenotype <- read.csv(paste0('path\\nhanes_phenotype.csv'))
+#phenotype data should be merged here
 
 #Check variables
 names(demo1112)
